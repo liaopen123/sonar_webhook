@@ -4,7 +4,7 @@ sonar 钉钉推送
 ```
 docker pull liaopen123/sonar-webhook:0.0.1
 
-sudo docker run -d -p 9234:9234 --restart=always     liaopen123/sonar-webhook
+sudo docker run -d -p 9234:9234 --restart=always     liaopen123/sonar-webhook:0.0.1
 ```
 默认端口为9234
 在网络调用的url设置为:
